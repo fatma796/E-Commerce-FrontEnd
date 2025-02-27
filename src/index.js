@@ -9,7 +9,7 @@ import axios from 'axios';
 
 
 
-axios.defaults.baseURL = 'http://localhost:5000/api';
+axios.defaults.baseURL = 'https://e-commerce-backend-ip63.onrender.com/api';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
